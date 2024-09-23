@@ -13,7 +13,7 @@ model = tf.keras.models.load_model('model.h5')
 with open('gender_encoder_le.pkl', 'rb') as file:
     gender_encoder = pickle.load(file)
 
-with open('onehot_encoder_geo.pkl', 'rb') as file:
+with open('geography_encoder_ohe.pkl', 'rb') as file:
     geo_encoder = pickle.load(file)
 
 with open('sscaler.pkl', 'rb') as file:
